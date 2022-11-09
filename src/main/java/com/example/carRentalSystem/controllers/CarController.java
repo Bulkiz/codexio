@@ -44,9 +44,11 @@ public class CarController {
 		return ResponseEntity.ok(carService.findAvailable());
 	}
 	
+
 	@GetMapping("/rent/{id}")
 	public String rentCar(@PathVariable("id") Integer id) {
 		
 		return carService.rentCar(id);
 	}
+	
 }

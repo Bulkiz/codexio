@@ -72,6 +72,7 @@ public class CarServiceImpl implements CarService{
 		
 		return "You have successfully rented " + car.getMake() + " " + car.getModel() + "!";
 	}
+
 	
 	
 }
